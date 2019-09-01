@@ -27,7 +27,10 @@ yarn
 
 ### Running migrations Database
 
-`yarn sequelize db:migrate`
+```
+docker-compose up
+yarn sequelize db:migrate
+```
 
 ### Setup .env file
 
